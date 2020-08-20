@@ -11,15 +11,15 @@ However, the majority of American's net worth rely more on income other than a c
 Note:
 
 Jeff Bezos:
-YTD Change: 77,200,000,000 a year
+YTD Change: 77,200,000,000 / year
 = 2447.68 / second
 
 Elon Musk:
-YTD Change: 62,400,000,000 a year
+YTD Change: 62,400,000,000 / year
 = 1978.44 / second
 
 Mark Zuckerberg:
-YTD Change: 21,100,000,000 a year
+YTD Change: 21,100,000,000 / year
 = 668.99 / second
 
 Bill Gates:
@@ -28,12 +28,12 @@ YTD Change: 8,013,000,000 a year
 
 a top .1% income earner:
 $2,808,104 / year
-0.0890331008 / second
+= 0.0890331008 / second
 
 a top 1$ income earner:
 $737,697 / year
-0.02338925174 / second
+= 0.02338925174 / second
 
 an average american:
 $55,412 / year
-0.00175688015 / second
+= 0.00175688015 / second
