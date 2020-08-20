@@ -9,8 +9,6 @@ Good catch, net worth is used for the CEOs, and net income is used for others. I
 
 However, the majority of American's net worth rely more on income other than a company they own. Therefore, I believe it is fair, even for those in the top 1 or top .1 percent, that we can increase one's net worth by their income. This tool is not perfect, but my main goal is to give a visual representation of how much some of our top CEO's make and comparing that number with our own.
 
-Note:
-
 Jeff Bezos:
 YTD Change: 77,200,000,000 / year
 = 2447.68 / second
