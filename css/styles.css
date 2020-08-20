@@ -1,0 +1,97 @@
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+.holder .typo, .holder .list a {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+}
+.holder .typo option, .holder .list a option {
+  font-size: 30px;
+}
+
+.holder .transition {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.holder .wrapper {
+  font-size: 40px;
+}
+
+.holder .list {
+  display: inline-block;
+  position: relative;
+  margin-left: 6px;
+}
+.holder .list ul {
+  text-align: left;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.holder .list ul .active {
+  display: block;
+}
+.holder .list li {
+  list-style: none;
+}
+
+.holder .list a {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #7b00ff;
+  position: relative;
+}
+.holder .list a:after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 0;
+  left: 0;
+  background: #b066ff;
+  bottom: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.holder .list a:hover {
+  cursor: pointer;
+  color: #FFD700;
+}
+.holder .list a:hover:after {
+  width: 100%;
+}
+
+.holder select {
+  display: inline;
+  border: 0;
+  width: auto;
+  margin-left: 10px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-bottom: 2px solid #555;
+  color: #7b00ff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.holder select:hover {
+  cursor: pointer;
+}
+.holder select option {
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.holder .placeholder {
+  border-bottom: 4px solid;
+  cursor: pointer;
+}
+.holder .placeholder:hover {
+  color: #FFD700;
+}
