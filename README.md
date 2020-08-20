@@ -2,6 +2,7 @@
 References for iambezos.com
 
 https://www.bloomberg.com/billionaires/ for CEOS - Data calculated as of 8/20/2020
+
 https://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/ for others
 
 Good catch, net worth is used for the CEOs, and net income is used for others. If we used income for all, Jeff Bezos would actually make $81,840 a year. Net worth is defined as "the value of all assets, minus the total of all liabilities". Therefore, it is important to note that there is a clear distinction between these two numbers. One is personal income, while one includes how much of a company someone owns. Jeff Bezos does not receive $3,000 every second in his bank account that he can spend, instead this number shows that Amazon is improving.
