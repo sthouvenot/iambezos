@@ -9,7 +9,31 @@
 .holder .typo option, .holder .list a option {
   font-size: 30px;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.container3 {
+  position: relative;
+}
 
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
 html, body {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -28,7 +52,7 @@ body {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 499px) {
   .holder .wrapper  {
     font-size: 60px;
   }
