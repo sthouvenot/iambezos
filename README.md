@@ -23,7 +23,7 @@ YTD Change: 21,100,000,000 / year
 = 668.99 / second
 
 Bill Gates:
-YTD Change: 8,013,000,000 a year
+YTD Change: 8,013,000,000 / year
 = 254.06 / second
 
 a top .1% income earner:
