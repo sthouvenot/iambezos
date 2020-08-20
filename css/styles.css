@@ -20,6 +20,25 @@
 .container3 {
   position: relative;
 }
+.topRight {
+  position: absolute;
+  top: 25px;
+  right: 18px;
+  font-size: 18px;
+  opacity: .6;
+  z-index: 9999;
+
+}
+
+.topRight:focus{
+    border:none;
+    outline: none;
+}
+
+.topRight:hover{
+  cursor: pointer;
+  opacity: 1;
+}
 
 .bottomleft {
   position: absolute;
