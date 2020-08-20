@@ -56,7 +56,7 @@ $('.placeholder').on('click', function (ev) {
      savedIncrease = 0;
       }
    }
-   else if($(this).text() === "an average american"){
+   else if($(this).text() === "an average American"){
      if(increaseNumber !== avgAmericanIncrease){
      increaseNumber = avgAmericanIncrease;
      savedIncrease = 0;
