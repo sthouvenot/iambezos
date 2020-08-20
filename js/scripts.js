@@ -3,11 +3,16 @@ console.clear();
 var el = {};
 
 $('.placeholder').on('click', function (ev) {
+  var element2 = document.getElementById("clickIcon");
+
+  element2.style.visibility = "hidden";
   $('.placeholder').css('opacity', '1');
   $('.list__ul').toggle();
 });
 
  $('.list__ul a').on('click', function (ev) {
+
+
    ev.preventDefault();
    var index = $(this).parent().index();
 
