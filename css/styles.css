@@ -10,8 +10,6 @@
   font-size: 30px;
 }
 
-
-
 html, body {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -30,7 +28,7 @@ body {
 }
 
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 600px) {
   .holder .wrapper  {
     font-size: 60px;
   }

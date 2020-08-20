@@ -65,12 +65,6 @@ $('.placeholder').on('click', function (ev) {
 
 
 $('select').on('change', function (e) {
-  // Set text on placeholder hidden element
   $('.placeholder').text(this.value);
-
-  // Animate select width as placeholder
   $(this).animate({width: $('.placeholder').width() + 'px' });
-
-
-
 });

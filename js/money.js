@@ -1,6 +1,3 @@
-
-// Update the count down every 1 second
-
 speed = 10;
 
 bezosIncrease = 2489.3;
@@ -16,18 +13,12 @@ var savedIncrease = 0; //incase of overflow;
 var x = setInterval(function() {
 
   moneyIncrease = increaseNumber/speed;
-
   currentAmount = savedIncrease;
-
   newAmount = moneyIncrease + savedIncrease;
   savedIncrease = newAmount;
 
   newAmount  = newAmount.toFixed(2);
-
   newAmount = numberWithCommas(newAmount);
-
-
-  // Display the result in the element with id="demo"
   document.getElementById("money").innerHTML = newAmount;
 
 }, 1000/speed);
