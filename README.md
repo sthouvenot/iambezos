@@ -27,13 +27,13 @@ YTD Change: 8,013,000,000 / year
 = 254.06 / second
 
 a top .1% income earner:
-$2,808,104 / year
+2,808,104 / year
 = 0.0890331008 / second
 
 a top 1$ income earner:
-$737,697 / year
+737,697 / year
 = 0.02338925174 / second
 
 an average american:
-$55,412 / year
+55,412 / year
 = 0.00175688015 / second
