@@ -30,7 +30,7 @@ a top .1% income earner:
 2,808,104 / year
 = 0.0890331008 / second
 
-a top 1$ income earner:
+a top 1% income earner:
 737,697 / year
 = 0.02338925174 / second
 
