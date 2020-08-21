@@ -1,35 +1,25 @@
-
-// Update the count down every 1 second
-
 speed = 10;
 
-bezosIncrease = 2489.3;
-gatesIncrease = 507.35;
-muskIncrease = 420.69;
-zuckIncrease = 285.38;
-toppointIncrease = 0.08904439375;
-toponeIncrease = .0233922184;
-avgAmericanIncrease = 0.00150132275;
+bezosIncrease = 2447.68;
+gatesIncrease = 254.06;
+muskIncrease = 1978.44;
+zuckIncrease = 668.99;
+toppointIncrease = 0.0890331008;
+toponeIncrease = 0.02338925174;
+avgAmericanIncrease = 0.00175688015;
+avgMinimumWage = 0.00047812301;
+
+var begSeconds = new Date().getTime();
 
 var savedIncrease = 0; //incase of overflow;
 
 var x = setInterval(function() {
-
-  moneyIncrease = increaseNumber/speed;
-
-  currentAmount = savedIncrease;
-
-  newAmount = moneyIncrease + savedIncrease;
-  savedIncrease = newAmount;
-
-  newAmount  = newAmount.toFixed(2);
-
+  var newSeconds = new Date().getTime();
+  var difference = (newSeconds-begSeconds)/1000;
+  newAmount = difference*increaseNumber;
+  newAmount = newAmount.toFixed(2);
   newAmount = numberWithCommas(newAmount);
-
-
-  // Display the result in the element with id="demo"
   document.getElementById("money").innerHTML = newAmount;
-
 }, 1000/speed);
 
 function numberWithCommas(x) {
@@ -37,3 +27,7 @@ function numberWithCommas(x) {
 }
 
 var increaseNumber = bezosIncrease;
+
+function reseter() {
+  begSeconds = new Date().getTime();
+}
